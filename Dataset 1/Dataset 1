@@ -1,4 +1,4 @@
-}This assessment employs a real dataset of audio recordings collected in 2022 from various beehives at the Research Center
+This assessment employs a real dataset of audio recordings collected in 2022 from various beehives at the Research Center
 for Tropical Bees and Beekeeping, Vietnam National University of Agriculture, as introduced in a previous study. The recordings,
 captured under different ambient noise conditions, are divided into two categories: those with and without the presence of the 
 queen bee. The audio data is then segmented into 20,000 clips, each 2-second-long with 1-second overlaps, ensuring consistent analysis. 
