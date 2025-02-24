@@ -21,13 +21,14 @@ Honey bees play a crucial role in pollination, supporting ecosystem balance and 
 </ul>
 <h2>Methodology:</h2>
 <ul>
+  <img src="https://res.cloudinary.com/disxh240j/image/upload/v1740388091/GitHub-RegNet/Methodology_rzfrft.png", width="400" img align="right">
   <li>
     Our goal is to leverage the strengths
 of well-established deep learning models designed for image processing and
 identify suitable models to apply to audio processing and queenless state
 monitoring using audio data.
   </li>
-  ![Methodology](https://res.cloudinary.com/disxh240j/image/upload/v1740388091/GitHub-RegNet/Methodology_rzfrft.png)
+  
   <li>
     In this study, we transform the raw audio data into the
 frequency domain using the Short-Time Fourier Transform (STFT) and Mel
@@ -37,8 +38,7 @@ Spectrograms.
     Once the spectrograms are obtained as images, various CNN-based mod-
 els are employed to extract more significant features and accurately detect
 the beehive state. We explore five different CNN architectures, ranging from
-simple to complex: ResNet, EfficientNet, RegNet, ViT and CaiT. These mod-
-els are known for their ability to handle 2D image data and their effectiveness
+simple to complex: ResNet, EfficientNet, RegNet, ViT and CaiT. These models are known for their ability to handle 2D image data and their effectiveness
 in beehive state detection.
   </li>
 </ul>
