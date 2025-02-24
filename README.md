@@ -27,7 +27,7 @@ of well-established deep learning models designed for image processing and
 identify suitable models to apply to audio processing and queenless state
 monitoring using audio data.
   </li>
-  ![Methodology](https://github.com/user-attachments/assets/e3318a65-986e-43d1-873a-f584d50b090d)
+  ![Methodology](https://res.cloudinary.com/disxh240j/image/upload/v1740388091/GitHub-RegNet/Methodology_rzfrft.png)
   <li>
     In this study, we transform the raw audio data into the
 frequency domain using the Short-Time Fourier Transform (STFT) and Mel
