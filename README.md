@@ -1,8 +1,8 @@
 # RegNet: A High-Performance Deep Learning Model for Queenless State Detection in Beehives
-## Abstract
+<h2>Abstract</h2>
 
 Honey bees play a crucial role in pollination, supporting ecosystem balance and agricultural productivity. The queen bee is essential for hive cohesion, but her presence can often be inferred through the colony’s overall behavior and condition rather than direct monitoring. This study proposes a non-invasive approach using deep learning techniques to analyze spectrogram features obtained from Short-Time Fourier Transform (STFT) and Mel-Frequency Cepstral Coefficients (MFCCs), to detect the queenless condition in beehives. We evaluate five convolutional neural network (CNN) architectures—ResNet-50, EfficientNet, RegNet, ViT and CaiT—on two datasets from different beehives. A customized transfer learning strategy is employed to enhance model performance. Experimental results show that RegNetY consistently outperforms other models, achieving the highest accuracy and F1-score across both datasets and feature types, indicating its robustness and generalizability in detecting hive states.
-## Dataset description:
+<h2>Dataset description:</h2>
 <ul>
 <li>Dataset 1:</li>
   <span>
@@ -18,4 +18,27 @@ Honey bees play a crucial role in pollination, supporting ecosystem balance and 
     <li>Link: <a href="https://www.kaggle.com/datasets/yevheniiklymenko/beehive-buzz-anomaliess">here</a></li>
     </ul>
   </span>
+</ul>
+<h2>Methodology:</h2>
+<ul>
+  <li>
+    Our goal is to leverage the strengths
+of well-established deep learning models designed for image processing and
+identify suitable models to apply to audio processing and queenless state
+monitoring using audio data.
+  </li>
+  ![Methodology](https://github.com/user-attachments/assets/e3318a65-986e-43d1-873a-f584d50b090d)
+  <li>
+    In this study, we transform the raw audio data into the
+frequency domain using the Short-Time Fourier Transform (STFT) and Mel
+Spectrograms.
+  </li>
+  <li>
+    Once the spectrograms are obtained as images, various CNN-based mod-
+els are employed to extract more significant features and accurately detect
+the beehive state. We explore five different CNN architectures, ranging from
+simple to complex: ResNet, EfficientNet, RegNet, ViT and CaiT. These mod-
+els are known for their ability to handle 2D image data and their effectiveness
+in beehive state detection.
+  </li>
 </ul>
